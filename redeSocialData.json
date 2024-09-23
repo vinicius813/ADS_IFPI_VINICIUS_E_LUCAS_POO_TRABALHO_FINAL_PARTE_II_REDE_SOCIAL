@@ -1,0 +1,64 @@
+{
+  "usuarios": [
+    {
+      "id": 33345,
+      "email": "vini@bruxo.com",
+      "apelido": "fofao",
+      "documento": "nascimento",
+      "ativo": true
+    },
+    {
+      "id": 56789,
+      "email": "gui@costa.com",
+      "apelido": "guigui",
+      "documento": "cpf",
+      "ativo": true
+    },
+    {
+      "id": null,
+      "email": "o",
+      "apelido": "o",
+      "documento": "u",
+      "ativo": true
+    },
+    {
+      "id": 2345688,
+      "email": "lucas@davyd.com",
+      "apelido": "chocolateiro",
+      "documento": "rg",
+      "ativo": false
+    },
+    {
+      "id": 22345688,
+      "email": "adalton@hotmail.com",
+      "apelido": "frank",
+      "documento": "cnh",
+      "ativo": true
+    }
+  ],
+  "publicacoes": [
+    {
+      "id": null,
+      "usuarioId": 33345,
+      "conteudo": "praia",
+      "dataHora": "2024-09-22T14:22:42.446Z",
+      "tipo": "simples"
+    },
+    {
+      "id": 2345688,
+      "usuarioId": 2345688,
+      "conteudo": "musicaolamundo",
+      "dataHora": "2024-09-23T12:56:16.747Z",
+      "tipo": "avancada",
+      "interacoes": [
+        {
+          "id": 1727097996906,
+          "publicacaoId": 2345688,
+          "tipoInteracao": "riso",
+          "usuarioId": 56789,
+          "dataHora": "2024-09-23T13:26:36.907Z"
+        }
+      ]
+    }
+  ]
+}
